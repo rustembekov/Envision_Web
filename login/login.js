@@ -29,7 +29,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
             localStorage.setItem("username", username);
 
             alert('Login successful!');
-            window.location.href = "../main/main.html";
+            window.location.href = "/main/main.html";
         })
         .catch(error => {
             alert("An error occurred. Please try again later.");
