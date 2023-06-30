@@ -28,7 +28,7 @@ document.getElementById('register-form').addEventListener('submit', function(eve
         .then(response => {
             if(response.ok){
                 alert('Registration successful!');
-                window.location.href = "../login/login.html";
+                window.location.href = "../login/index.html";
             }else{
                 alert('Registration failed!');
             }
